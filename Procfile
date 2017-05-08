@@ -1,1 +1,2 @@
-web: npm run build-demo && npm start
+heroku-postbuild: npm run build-demo
+web: npm start
