@@ -9,7 +9,9 @@
     "gulp": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/gulp/bin/gulp.js",
     "dev-server": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/gulp/bin/gulp.js dev-server",
     "release": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/gulp/bin/gulp.js release",
-    "eslint": "node ./node_modules/eslint/bin/eslint.js --quiet src --ignore-pattern *.test.js"
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --quiet src --ignore-pattern *.test.js",
+    "build-demo": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/webpack/bin/webpack.js --config ./dev-server/config.js --progress --colors",
+    "start": "./node_modules/.bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
+    "http-server": "0.9.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",

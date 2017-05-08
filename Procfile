@@ -1,1 +1,1 @@
-web: npm run dev-server
+web: npm run build-demo && npm start
