@@ -89,7 +89,7 @@
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2",
     "whatwg-fetch": "^2.0.1",
-    "yargs": "^6.5.0"
+    "yargs": "^18.0.0"
   },
   "dependencies": {
     "classnames": "^2.2.5",
